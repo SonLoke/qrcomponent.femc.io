@@ -1,0 +1,51 @@
+.qr_code_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9edf5; /* set background color to grayish blue */
+  }
+  
+  .white_box {
+    background-color: #fff;
+    border-radius: 10px; /* add border radius to make it a rounded rectangle */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* add a subtle box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: min-content;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+  .intro {
+    font-size: 12px;
+    font-weight: 750;
+    margin-top: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #031a30;
+  }
+
+  .call_to_action {
+    font-size: 9px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #90a4ae;
+  }
+
+  .attribution {
+    font-family: sans-serif;
+    font-weight: 600;
+  }
